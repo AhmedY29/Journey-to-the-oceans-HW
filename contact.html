@@ -5,5 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>انضم الى رحلة استكشاف المحيط</title>
   </head>
-  <body></body>
+  <body>
+    <section>
+      <nav>
+        <ul>
+          <li><a href="./index.html">الصفحة الرئيسية</a></li>
+          <li><a href="./exploreOcean.html">الانواع البحرية</a></li>
+          <li><a href="#">تواصل معنا</a></li>
+        </ul>
+      </nav>
+      <h1>انضم الى مهمة استكشاف المحيط</h1>
+      <form>
+        <label for="name">الاسم الكامل</label>
+        <input type="text" id="name" />
+        <label for="age">العمر</label>
+        <input type="number" id="age" />
+        <label for="">الجنس</label>
+        <label for="male">ذكر</label>
+        <input type="radio" id="male" name="gender" />
+        <label for="female">انثى</label>
+        <input type="radio" id="female" name="gender" />
+        <label for="">هل ترغب في ان تكون غواصًا؟</label>
+        <label for="yes">نعم</label>
+        <input type="radio" id="yes" name="question" />
+        <label for="no">لا</label>
+        <input type="radio" id="no" name="question" />
+        <label for="interest">ماهو مجال اهتمامك</label>
+        <select name="interest" id="interest">
+          <option value="oceans">محيطات</option>
+          <option value="marine">بيئة بحرية</option>
+          <option value="creatures">كائنات بحرية</option>
+        </select>
+        <label for="why-join">لماذا تريد الانضمام ؟</label>
+        <textarea name="why-join" id="why-join" rows="5"></textarea>
+        <input type="submit" value="ارسل الطلب" />
+      </form>
+    </section>
+  </body>
 </html>
