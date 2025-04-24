@@ -3,71 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>استكشاف الانواع البحرية</title>
-    <style></style>
   </head>
   <body>
-    <section>
+    <div class="container">
       <nav>
         <ul>
           <li><a href="./index.html">الصفحة الرئيسية</a></li>
-          <li>الانواع البحرية</li>
+          <li><a href="#" class="active">الانواع البحرية</a></li>
           <li><a href="./contact.html">تواصل معنا</a></li>
         </ul>
       </nav>
       <h1>انواع الحياة البحرية</h1>
-      <table style="width: 500px">
-        <tr>
-          <td>
-            <div class="box">
-              <img
-                src="https://images.pexels.com/photos/2747248/pexels-photo-2747248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                width="200"
-                alt=""
-              />
-              <h4>الحوت الأزرق</h4>
-              <p>
-                أكبر حيوان معروف على وجه الأرض، يمكن أن يصل طوله إلى 30 مترًا
-                ووزنه إلى 200 طن.
-              </p>
-            </div>
-          </td>
-          <td>
-            <div class="box">
-              <img
-                src="https://images.pexels.com/photos/2747248/pexels-photo-2747248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                width="200"
-                alt=""
-              />
-              <h4>الدلفين الذكي</h4>
-              <p>
-                أمن أذكى المخلوقات البحرية، يعيش في مجموعات اجتماعية معقدة
-                ويتميز بقدرات اتصال متطورة.
-              </p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <div class="box">
-              <img
-                src="https://images.pexels.com/photos/2747248/pexels-photo-2747248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                width="200"
-                alt=""
-              />
-              <h4>قنديل البحر</h4>
-              <p>
-                يعود تاريخه إلى أكثر من 500 مليون سنة، بعض أنواعه خالد بيولوجيًا
-                لا يموت إلا بسبب عوامل خارجية.
-              </p>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </section>
+      <div class="boxes">
+      <div class="box">
+        <img
+          src="https://images.pexels.com/photos/2747248/pexels-photo-2747248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          width="200"
+          alt=""
+        />
+        <h3>الحوت الأزرق</h3>
+        <p>
+          أكبر حيوان معروف على وجه الأرض، يمكن أن يصل طوله إلى 30 مترًا ووزنه
+          إلى 200 طن.
+        </p>
+      </div>
+      <div class="box">
+        <img
+          src="https://images.pexels.com/photos/12227132/pexels-photo-12227132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          width="200"
+          alt=""
+        />
+        <h3>الدلفين الذكي</h3>
+        <p>
+          أمن أذكى المخلوقات البحرية، يعيش في مجموعات اجتماعية معقدة ويتميز
+          بقدرات اتصال متطورة.
+        </p>
+      </div>
 
-    <section>
-      <h4>معلومات عن الكائنات البحرية</h4>
+      <div class="box">
+        <img
+          src="https://images.pexels.com/photos/2730355/pexels-photo-2730355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          width="200"
+          alt=""
+        />
+        <h3>قنديل البحر</h3>
+        <p>
+          يعود تاريخه إلى أكثر من 500 مليون سنة، بعض أنواعه خالد بيولوجيًا لا
+          يموت إلا بسبب عوامل خارجية.
+        </p>
+      </div>
+    </div>
+      <h3>معلومات عن الكائنات البحرية</h3>
+      <p>معلومات شاملة عن أهم الكائنات البحرية وخصائصها
+    </p>
       <table>
         <tr>
           <th>اسم الكائن</th>
@@ -76,32 +66,34 @@
           <th>السلوكيات</th>
         </tr>
         <tr>
-          <td>سمكة المهرج</td>
-          <td>شعب مرجانية</td>
-          <td>قارت</td>
-          <td>سلمي</td>
+          <td>قنديل البحر الصندوقي</td>
+          <td>بحرية</td>
+          <td>مفترس (أسماك صغيرة)</td>
+          <td>سام وقاتل</td>
         </tr>
         <tr>
           <td>الحوت الأزرق</td>
           <td>اعماق المحيط</td>
-          <td>عاشب</td>
+          <td>عشب</td>
           <td>سلمي</td>
         </tr>
         <tr>
-          <td>القرش الابيض</td>
+          <td>الدلفين ذو الأنف القاروري</td>
           <td>بحرية</td>
-          <td>مفترس</td>
-          <td>هجومي</td>
+          <td>مفترس (أسماك، حبار)</td>
+          <td>سلمي</td>
         </tr>
       </table>
 
       <h2>الانواع المفضلة لدى الباحثين</h2>
-      <ol type="I">
+      <ol class="fav-type" type="I">
         <li>الحوت الاحدب</li>
         <li>السلحفاة البرية</li>
         <li>الدولفين ذو الانف القاروري</li>
       </ol>
-      <a href="#">زيارة موقع المعهد البحري</a>
+      <div class="link">
+          <a href="#">زيارة موقع المعهد البحري</a>
+      </div>
     </section>
   </body>
 </html>
